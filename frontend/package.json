@@ -1,0 +1,10 @@
+{
+	"name": "frontend",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"scripts": {
+		"assets": "hs --cors -p 8082 assets/",
+		"dev": "hs --cors -p 8080 public/"
+	}
+}
